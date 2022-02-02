@@ -7,6 +7,8 @@ body {
 }
 .wrapper {
     position: relative;
+    max-width: 1903px;
+    margin: 0 auto;
 }    
 
 /* Block1 */
@@ -61,6 +63,8 @@ body {
     width: max-content;
 }
 .block1-contact-btn {
+    position: relative;
+    z-index: 1;
     width: 150px;
     height: 50px;
     border: solid #62D0DF;
@@ -266,9 +270,13 @@ body {
     height: 400px;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 .column1 a {
     text-decoration: none; 
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 .column2 {
     background-color: #C4E769;
@@ -302,7 +310,7 @@ body {
 }
 li {
     color: #E9B730;
-    margin-top: 80px;
+    margin: 80px 105px;
 }
 .block4-content .column:hover {
     border-top: 1px solid #E9B730;
